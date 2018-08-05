@@ -3,7 +3,7 @@ The code of paper "A Fast Single-Image Super-Resolution Method Implemented With 
 
 ## Constant 
 
-### src:the source code
+### src--the source code
 
     main.cpp:the entry point
     cuSSSR.h/cuSSSR.cpp: declaration and implementation of functions which run on CPU
@@ -16,7 +16,7 @@ The code of paper "A Fast Single-Image Super-Resolution Method Implemented With 
     wrap_estimateHF.cu: the C API of estimating HF details of high resolut on image.
     warp_devideFeatureMaps.cu:the C API of dividing image feature maps into into little patches.
     
-### images
+### images--test images
     
     some test images which cover Set5,Set14,BSDS100,Urban100. Groud truth images and corresponding low resolution(LR) are given.
     
